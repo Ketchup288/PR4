@@ -43,11 +43,13 @@ int main(){
 			n ++;
 		}
  		while (abs(a) >= eps);
-}
 
-	cout << "|" << setw(8) << setprecision(2) << x << " |"
-	<< setw(11) << setprecision(5) << atan(x) << " |"
-	<< setw(11) << setprecision(5) << S << " |"
-	<< setw(9) << n << " |"
-	<< endl;
+ 		cout << "|" << setw(8) << setprecision(2) << x << " |"
+			 << setw(11) << setprecision(5) << atan(x) << " |"
+			 << setw(11) << setprecision(5) << S << " |"
+			 << setw(9) << n << " |"
+			 << endl;
+	}
+
+
 }
